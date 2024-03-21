@@ -29,7 +29,7 @@ const renderLink = (li, id) => {
     // anchor element (hyperlink)
     const a = li.appendChild(document.createElement('a'))
     a.innerHTML = '<i class="bi bi-trash"></i>'     // bootsrap icon
-    a.setAttribute('style', 'float: right')
+    a.setAttribute('style', 'float: right') 
     // add a listener
     a.addEventListener('click', (event) => {
         // the removeTask method returns the id of the removed task
